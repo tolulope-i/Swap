@@ -122,14 +122,11 @@ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
--------
+## Contact
 
 For any questions or feedback, please contact:
 
-*   Simon Nungwa - Email
-    
-*   GitHub: [SimonNungwa](https://github.com/SimonNungwa)
-    
+- Simon Nungwa - [GitHub](https://github.com/SimonNungwa)
+
 
 Thank you for using Swap!
