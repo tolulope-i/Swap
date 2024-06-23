@@ -32,19 +32,7 @@ To set up the Swap digital marketplace on your local machine, follow these steps
 
 <button onclick="copyToClipboard()">Copy to Clipboard</button>
 
-<script>
-function copyToClipboard() {
-  const text = `git clone https://github.com/SimonNungwa/Swap.git
-cd Swap
-npm install
-npm start`;
-  navigator.clipboard.writeText(text).then(function() {
-    alert('Copied to clipboard');
-  }, function(err) {
-    alert('Failed to copy: ', err);
-  });
-}
-</script>
+
 
 ## Additional Setup
 
