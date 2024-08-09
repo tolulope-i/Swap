@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Nav from './components/Nav';
+import Aside from './components/Aside';
+import Catalog from './components/Catalog';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="min-h-screen bg-gray-100">
+      <header className="bg-white shadow-sm">
+        <Nav />
       </header>
+
+      <div className="flex mx-20 mt-8">
+        <aside className="w-64">
+          <Aside />
+        </aside>
+        <main className="flex-1 ml-8">
+          <Catalog />
+        </main>
+      </div>
+
+      <footer className="bg-white text-black p-5 mt-12 border-t border-gray-200">
+        <Footer />
+      </footer>
     </div>
   );
 }
