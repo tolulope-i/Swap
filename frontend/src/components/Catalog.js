@@ -12,7 +12,7 @@ const Catalog = ({ fashionProducts = [], electronicsProducts = [] }) => {
   };
 
   return (
-    <section className="container mx-auto text-center py-8 px-4">
+    <section className="container mx-auto text-center px-4">
       <h2 className="text-4xl font-bold mb-6 text-gray-900">Featured Products</h2>
       <div className="mb-6">
         <button
