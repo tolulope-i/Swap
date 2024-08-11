@@ -11,14 +11,12 @@ function App() {
         <Nav />
       </header>
 
-      <div className="flex mx-20 mt-8">
-        <aside className="w-64">
-          <Aside />
-        </aside>
-        <main className="flex-1 ml-8">
-          <Catalog />
+      <aside>
+        <Aside />
+      </aside>
+      <main className="flex-1 ml-8">
+        <Catalog />
         </main>
-      </div>
 
       <footer className="bg-white text-black p-5 mt-12 border-t border-gray-200">
         <Footer />

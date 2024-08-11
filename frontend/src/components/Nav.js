@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="text-3xl font-bold text-gray-900">
         <a href="#">Swap</a>
       </div>
-      <form action="#" method="get" className="relative w-full max-w-lg">
+      <form action="#" method="get" className="relative w-full max-w-xl">
         <input
           type="search"
           placeholder="Search for products here"
